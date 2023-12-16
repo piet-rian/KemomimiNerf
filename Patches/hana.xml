@@ -1,0 +1,6 @@
+<Patch>
+    <!-- remove wool -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="hanaWool"]</xpath>
+    </Operation>
+</Patch>
