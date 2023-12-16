@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <!-- see. https://rimworldwiki.com/wiki/Modding_Tutorials/About.xml -->
+    <packageId>piet.rian.kemomimi.nerf</packageId>
+
+    <name>KemomimiNerf</name>
+
+    <authors>piet-rian</authors>
+
+    <description>
+        Kemomimihouseの獣耳少女達を弱体化するmodです。要素の削除を含みますので途中導入は非推奨であり、一部のmodと競合する可能性があります。変更内容の詳細はGithubないしは同梱されているREADMEを参照してください。
+    </description>
+
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <modVersion>0.14</modVersion>
+
+    <url>https://github.com/piet-rian/KemomimiNerf</url>
+
+    <modDependencies>
+        <li>
+            <packageId>psyche.kemomimihouse</packageId>
+            <displayName>kemomimihouse</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2075974335</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+
+    <loadAfter>
+        <li>psyche.kemomimihouse</li>
+    </loadAfter>
 
 </ModMetaData>

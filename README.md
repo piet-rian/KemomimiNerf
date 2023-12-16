@@ -1,4 +1,54 @@
-# RimworldXMLModTemplate
-This is the template repository for XML-based mods in RIMWORLD.
+# KemomimiNerf
 
-see. https://rimworldwiki.com/wiki/Modding_Tutorials/Mod_Folder_Structure
+[kemomimihouse](https://steamcommunity.com/sharedfiles/filedetails/?id=2075974335) に対して要素の削除を伴う変更を施す MOD です。
+
+名前が示す通り、変更内容は概ね弱体化となっています。
+
+## 方針
+
+- kemomimi 達の産出素材を用いた商品を他派閥が多数保持していることの違和感の解消
+- HardWorking 系を併用している場合に人間以上の存在になることの抑止
+
+## 詳細
+
+- kemomimi 達から収穫できるアイテムを変更
+- kemomimi 固有素材を削除
+
+### 収穫アイテム変更表
+
+| キャラ名       | 変更前       | 変更後 |
+| -------------- | ------------ | ------ |
+| 狼獣耳族シロ   | ヒスイ       | (なし) |
+| 狼獣耳族シロ   | シロの髪の毛 | (なし) |
+| 狐獣耳族コン   | ゴールド     | (なし) |
+| 狐獣耳族コン   | コンの髪の毛 | (なし) |
+| 兎獣耳族ハナ   | シルバー     | (なし) |
+| 兎獣耳族ハナ   | ハナの髪の毛 | (なし) |
+| 化猫獣耳ミコ   | ミコの金色毛 | (なし) |
+| 羊獣角族アカメ | アカメの羊毛 | 羊毛   |
+| 羊獣角族アオメ | アオメの羊毛 | 羊毛   |
+| 犬獣耳族クロ   | クロの毛     | (なし) |
+| 氷竜人ユキ     | ユキの鱗     | (なし) |
+| 鬼人コヒメ     | コヒメの毛   | (なし) |
+
+### 実際に削除されるアイテム
+
+- シロの髪の毛
+- コンの髪の毛
+- ハナの髪の毛
+- ミコの金色毛
+- アカメの羊毛
+- アオメの羊毛
+- クロの毛
+- ユキの鱗
+- コヒメの毛
+
+## 競合
+
+- [kemomimihouse Kz](https://steamcommunity.com/sharedfiles/filedetails/?id=2211305406)
+  - 本modが削除するアイテム画像の差し替えを行っているため
+
+## CONTRIBUTING
+
+[リポジトリに対する各種貢献についての指針](https://github.com/piet-rian/.github/blob/main/CONTRIBUTING.md) および
+[LICENSE](LICENSE) を参照の上でお願いします。
