@@ -3,4 +3,9 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="hanaWool"]</xpath>
     </Operation>
+
+    <!-- remove Shearable setting -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="hana"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
+    </Operation>
 </Patch>
