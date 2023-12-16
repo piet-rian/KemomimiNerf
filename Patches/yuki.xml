@@ -1,0 +1,11 @@
+<Patch>
+    <!-- remove wool -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="yukiwool"]</xpath> <!-- ユキだけWoolではなくてwool -->
+    </Operation>
+
+    <!-- remove Shearable setting -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="yuki"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
+    </Operation>
+</Patch>

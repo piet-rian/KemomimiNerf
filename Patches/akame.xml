@@ -1,0 +1,19 @@
+<Patch>
+    <!-- remove wool -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="akameWool"]</xpath>
+    </Operation>
+
+    <!-- change Shearable setting -->
+    <Operation
+        Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="akame"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
+        <value>
+            <li Class="CompProperties_Shearable">
+                <woolDef>WoolSheep</woolDef>
+                <shearIntervalDays>20</shearIntervalDays>
+                <woolAmount>45</woolAmount>
+            </li>
+        </value>
+    </Operation>
+</Patch>
