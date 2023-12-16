@@ -45,6 +45,14 @@
 - ユキの鱗
 - コヒメの毛
 
+## MODの途中導入
+
+非推奨
+
+## MODの途中除去
+
+おそらく問題なし
+
 ## 競合
 
 - [kemomimihouse Kz](https://steamcommunity.com/sharedfiles/filedetails/?id=2211305406)
