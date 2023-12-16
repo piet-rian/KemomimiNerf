@@ -8,4 +8,9 @@
     <Operation Class="PatchOperationRemove">
         <xpath>/Defs/ThingDef[defName="kon"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
     </Operation>
+
+    <!-- remove Milkable setting -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="kon"]/comps/li[@Class="CompProperties_Milkable"]</xpath>
+    </Operation>
 </Patch>
