@@ -7,7 +7,7 @@
     <!-- change Shearable setting -->
     <Operation
         Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="akame"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
+        <xpath>Defs/ThingDef[defName="akame"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
         <value>
             <li Class="CompProperties_Shearable">
                 <woolDef>WoolSheep</woolDef>

@@ -1,6 +1,6 @@
 <Patch>
     <!-- remove Shearable setting -->
     <Operation Class="PatchOperationRemove">
-        <xpath>/Defs/ThingDef[defName="sirof"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
+        <xpath>Defs/ThingDef[defName="sirof"]/comps/li[@Class="CompProperties_Shearable"]</xpath>
     </Operation>
 </Patch>
