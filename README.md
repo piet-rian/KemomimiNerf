@@ -33,7 +33,7 @@
 | 氷竜人ユキ     | ユキの鱗     | (なし) |
 | 鬼人コヒメ     | コヒメの毛   | (なし) |
 
-### 実際に削除されるアイテム
+### 削除されるアイテム
 
 - シロの髪の毛
 - コンの髪の毛
@@ -58,7 +58,8 @@
 - [kemomimihouse Kz](https://steamcommunity.com/sharedfiles/filedetails/?id=2211305406)
   - 本 mod が削除するアイテム画像の差し替えを行っているため
 
-## CONTRIBUTING
+## NOTICE
 
-[リポジトリに対する各種貢献についての指針](https://github.com/piet-rian/.github/blob/main/CONTRIBUTING.md) および
-[LICENSE](LICENSE) を参照の上でお願いします。
+本Modは [BSD 3-Clause “New” or “Revised” License](LICENSE) [(日本語参考訳)](https://licenses.opensource.jp/BSD-3-Clause/BSD-3-Clause.html) で提供されています。
+
+プルリクエストおよびイシューについては [リポジトリに対する各種貢献についての指針](https://github.com/piet-rian/.github/blob/main/CONTRIBUTING.md) を参照した上でお願いします。
